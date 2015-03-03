@@ -222,14 +222,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "9-6 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -295,14 +295,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "9-6 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -367,14 +367,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "9-6 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -450,14 +450,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 2 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -528,14 +528,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 1 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -546,7 +546,7 @@
         ],
         "custom_days": [
           {
-            "date": "20th of this month,  3 months ago",
+            "date": "20th of this month, 2 months ago",
             "clocked_state": {
               "in" : "45 minutes after",
               "out": "now"
@@ -609,14 +609,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -681,14 +681,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -699,7 +699,7 @@
         ],
         "custom_days": [
           {
-            "date": "17th of this month,  3 months ago",
+            "date": "17th of this month, 2 months ago",
             "clocked_state": {
               "in" : "now",
               "out": "60 minutes after"
@@ -761,14 +761,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -832,14 +832,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -902,14 +902,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -972,14 +972,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -1039,14 +1039,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -1109,14 +1109,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 1 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -1179,14 +1179,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 1 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -1249,14 +1249,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month,  3 months ago",
+          "effective_date": "1st of this month, 2 months ago",
           "schedule_template": "Mixed 1 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month,  3 months ago",
-        "number_of_days": 45,
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 93,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
