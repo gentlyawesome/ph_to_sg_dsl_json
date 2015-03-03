@@ -44,7 +44,7 @@
         "compensation_levels": [
           {
             "name": "Regular Compensation",
-            "pay": 15000,
+            "pay": 1500,
             "ordinal": 0,
             "pay_time_base": "month",
             "hours_per_day": 9,
@@ -198,7 +198,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -222,14 +222,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "9-6 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -271,7 +271,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -295,14 +295,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "9-6 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -343,7 +343,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -367,14 +367,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "9-6 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -385,7 +385,7 @@
         ],
         "custom_days": [
           {
-            "date": "15th of this month, 1 months ago",
+            "date": "15th of this month, 2 months ago",
             "clocked_state": {
               "in": "now",
               "out": "120 minutes before"
@@ -426,7 +426,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -450,14 +450,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 2 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -468,7 +468,7 @@
         ],
         "custom_days": [
           {
-            "date": "15th of this month, 1 months ago",
+            "date": "15th of this month, 2 months ago",
             "clocked_state": {
               "in" : "now",
               "out": "90 minutes before"
@@ -504,7 +504,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -528,14 +528,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 1 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -546,7 +546,7 @@
         ],
         "custom_days": [
           {
-            "date": "20th of this month, 2 months ago",
+            "date": "20th of this month, 1 months ago",
             "clocked_state": {
               "in" : "45 minutes after",
               "out": "now"
@@ -585,7 +585,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -609,14 +609,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -657,7 +657,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -681,14 +681,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -699,7 +699,7 @@
         ],
         "custom_days": [
           {
-            "date": "17th of this month, 2 months ago",
+            "date": "17th of this month, 1 month ago",
             "clocked_state": {
               "in" : "now",
               "out": "60 minutes after"
@@ -737,7 +737,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -761,14 +761,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -808,7 +808,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -832,14 +832,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -878,7 +878,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -902,14 +902,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -948,7 +948,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -972,14 +972,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -1015,7 +1015,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -1039,14 +1039,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 3 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -1085,7 +1085,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -1109,14 +1109,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 1 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -1155,7 +1155,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -1179,14 +1179,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 1 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
@@ -1225,7 +1225,7 @@
       "avatar": "",
       "classification": "Rank & File",
       "employee_number": "123",
-      "employment_date": "the 1st of this month, 1 year ago",
+      "employment_date": "the 1st of this month,  11 months ago",
       "pay_mode": "monthly",
       "status": "active",
       "phones": [
@@ -1249,14 +1249,14 @@
       ],
       "schedules": [
         {
-          "effective_date": "1st of this month, 2 months ago",
+          "effective_date": "1st of this month, 3 months ago",
           "schedule_template": "Mixed 1 M-F"
         }
       ],
       "schedule_exceptions": [],
       "attendance": {
-        "from": "1st of this month, 2 months ago",
-        "number_of_days": 93,
+        "from": "1st of this month, 3 months ago",
+        "number_of_days": 92,
         "clocked_state": "perfect",
         "resolution_steps": [
           {
