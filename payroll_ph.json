@@ -1,0 +1,1279 @@
+{
+  "account": {
+    "country_code": "PH",
+    "features": {
+      "breaks_support": true,
+      "payrolls": true,
+      "payroll_onboarding":false
+    },
+    "positions": [
+      {
+        "name": "HR Director",
+        "allowed_to_clock_on_non_workdays": true,
+        "parents": [
+          "Account Owner"
+        ]
+      },
+      {
+        "name": "Payroll Assistant",
+        "allowed_to_clock_on_non_workdays": false,
+        "parents": [
+          "HR Director"
+        ]
+      },
+      {
+        "name": "Branch Manager",
+        "allowed_to_clock_on_non_workdays": true,
+        "parents": [
+          "HR Director"
+        ]
+      },
+      {
+        "name": "Branch Supervisor",
+        "allowed_to_clock_on_non_workdays": true,
+        "parents": [
+          "Branch Manager"
+        ]
+      },
+      {
+        "name": "Store Assistant",
+        "allowed_to_clock_on_non_workdays": false,
+        "parents": [
+          "Branch Manager"
+        ],
+        "compensation_levels": [
+          {
+            "name": "Regular Compensation",
+            "pay": 15000,
+            "ordinal": 0,
+            "pay_time_base": "month",
+            "hours_per_day": 9,
+            "days_per_year": 312
+          }
+        ]
+      },
+      {
+        "name": "Sales Manager",
+        "allowed_to_clock_on_non_workdays": true,
+        "parents": [
+          "HR Director"
+        ]
+      }
+    ],
+    "employee_types": [],
+    "worksites": [
+      {
+        "name": "Main Branch",
+        "address": "The Infinity, 26th Street, Fort Bonifacio, Taguig, Metro Manulla, Philippines",
+        "proximity_radius": 85,
+        "time_zone": "Hong Kong"
+      },
+      {
+        "name": "2nd Branch",
+        "address": "Net Lima, 26th St Taguig, Philippines",
+        "proximity_radius": 85,
+        "time_zone": "Hong Kong"
+      }
+    ],
+    "shifts": [
+      {
+        "start_time": "09:00",
+        "end_time": "18:00",
+        "breaks": [
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "kind": "paid_break"
+          }
+        ]
+      },
+      {
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "breaks": [
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "kind": "unpaid_break"
+          }
+        ]
+      },
+      {
+        "start_time": "10:00",
+        "end_time": "20:00",
+        "breaks": [
+          {
+            "start_time": "13:00",
+            "end_time": "14:00",
+            "kind": "unpaid_break"
+          }
+        ]
+      },
+      {
+        "start_time": "11:00",
+        "end_time": "21:00",
+        "breaks": [
+          {
+            "start_time": "15:00",
+            "end_time": "16:00",
+            "kind": "unpaid_break"
+          }
+        ]
+      }
+    ],
+    "schedule_templates": [
+      {
+        "name": "9-6 M-F",
+        "monday": "09:00-18:00",
+        "tuesday": "09:00-18:00",
+        "wednesday": "09:00-18:00",
+        "thursday": "09:00-18:00",
+        "friday": "09:00-18:00",
+        "saturday": null,
+        "sunday": null
+      },
+      {
+        "name": "Mixed 1 M-F",
+        "monday": "10:00-20:00",
+        "tuesday": "10:00-20:00",
+        "wednesday": "09:00-19:00",
+        "thursday": "11:00-21:00",
+        "friday": "10:00-20:00",
+        "saturday": null,
+        "sunday": null
+      },
+      {
+        "name": "Mixed 2 M-F",
+        "monday": "11:00-21:00",
+        "tuesday": "10:00-20:00",
+        "wednesday": "09:00-19:00",
+        "thursday": "10:00-20:00",
+        "friday": "10:00-20:00",
+        "saturday": null,
+        "sunday": null
+      },
+      {
+        "name": "Mixed 3 M-F",
+        "monday": "11:00-21:00",
+        "tuesday": "10:00-20:00",
+        "wednesday": "09:00-19:00",
+        "thursday": "10:00-20:00",
+        "friday": "10:00-20:00",
+        "saturday": null,
+        "sunday": null
+      },
+      {
+        "name": "Mixed 4 M-F",
+        "monday": "09:00-20:00",
+        "tuesday": "09:00-20:00",
+        "wednesday": "11:00-21:00",
+        "thursday": "11:00-21:00",
+        "friday": "10:00-20:00",
+        "saturday": null,
+        "sunday": null
+      }
+    ]
+  },
+  "employees": [
+    {
+      "firstname": "Homer",
+      "lastname": "Simpson",
+      "worksite": "Main Branch",
+      "role_name": "Payroll Administrator",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_homer'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'homer@' + account_name + '.com'; }"
+      },
+      "salutation": "Mr",
+      "gender": "male",
+      "middlename": "Jay",
+      "birthdate": "1953-12-05",
+      "marital_status": "married",
+      "address1": "742 Evergreen Terrace",
+      "postal_code": "SPR F13",
+      "city": "Springfield",
+      "country": "USA",
+      "province": "Illinois",
+      "emergency_name": "Marge",
+      "emergency_address": "same as the employee",
+      "emergency_phone": "123",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-1234",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "HR Director",
+          "compensation_level": "Regular",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Manager",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "9-6 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    },
+    {
+      "firstname": "Harry",
+      "lastname": "Potter",
+      "middlename": "James",
+      "worksite": "Main Branch",
+      "role_name": "Payroll Administrator",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_harry'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'harry@' + account_name + '.com'; }"
+      },
+      "salutation": "Mr",
+      "gender": "male",
+      "birthdate": "1980-07-31",
+      "marital_status": "single",
+      "address1": "4 Privet Drive",
+      "address2": "Little Whining",
+      "postal_code": "3VR 0A1",
+      "city": "London",
+      "province": "Surrey",
+      "country": "UK",
+      "emergency_name": "Hermione",
+      "emergency_address": "Hogwarts",
+      "emergency_phone": "123",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-1234",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Payroll Assistant",
+          "compensation_level": "Regular",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Manager",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "9-6 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    },
+    {
+      "firstname": "Barrack",
+      "lastname": "Obama",
+      "middlename": "Hussein",
+      "salutation": "Mr",
+      "worksite": "Main Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_barrack'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'barrack@' + account_name + '.com'; }"
+      },
+      "gender": "male",
+      "birthdate": "1961-04-08",
+      "marital_status": "married",
+      "address1": "1600 Pennsylvania Avenue",
+      "city": "Washington",
+      "province": "Maryland",
+      "postal_code": "DC 20500",
+      "country": "USA",
+      "emergency_name": "Michelle",
+      "emergency_address": "The Whitehouse",
+      "emergency_phone": "123",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-1234",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Sales Manager",
+          "compensation_level": "Regular",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Manager",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "9-6 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": [
+          {
+            "date": "15th of this month, 1 months ago",
+            "clocked_state": {
+              "in": "now",
+              "out": "120 minutes before"
+            },
+            "resolution_steps":[
+              { "out_early": { "resolution": "submit" } }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "firstname": "David",
+      "lastname": "Cameron",
+      "middlename": "William Donald",
+      "salutation": "Mr",
+      "worksite": "Main Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_david'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'david@' + account_name + '.com'; }"
+      },
+      "gender": "male",
+      "birthdate": "1961-04-08",
+      "marital_status": "married",
+      "address1": "10 Downing Street",
+      "city": "London",
+      "province": "Westminister",
+      "postal_code": "SW1A 2AA",
+      "country": "UK",
+      "emergency_name": "Samantha",
+      "emergency_address": "10 Downing Street",
+      "emergency_phone": "+17896842411",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-8911",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Branch Manager",
+          "compensation_level": "Regular",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Supervisor",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 2 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": [
+          {
+            "date": "15th of this month, 1 months ago",
+            "clocked_state": {
+              "in" : "now",
+              "out": "90 minutes before"
+            },
+            "resolution_steps":[]
+          }
+        ]
+      }
+    },
+    {
+      "firstname": "Wilma",
+      "lastname": "Flintstone",
+      "salutation": "Mrs",
+      "worksite": "2nd Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_wilma'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'wilma@' + account_name + '.com'; }"
+      },
+      "gender": "male",
+      "birthdate": "1966-04-01",
+      "marital_status": "married",
+      "address1": "342 Gravelpit Terrace",
+      "city": "Bedrock",
+      "postal_code": "B1V 2H7",
+      "emergency_name": "Fred",
+      "emergency_address": "same as employee",
+      "emergency_phone": "+16045557905",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-8911",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Branch Manager",
+          "compensation_level": "Regular",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Supervisor",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 1 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": [
+          {
+            "date": "20th of this month, 2 months ago",
+            "clocked_state": {
+              "in" : "45 minutes after",
+              "out": "now"
+            },
+            "resolution_steps":[]
+          }
+        ]
+      }
+    },
+    {
+      "firstname": "William",
+      "lastname": "Holmes",
+      "middlename": "Sherlock",
+      "salutation": "Mr",
+      "worksite": "Main Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_sherlock'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'sherlock@' + account_name + '.com'; }"
+      },
+      "gender": "male",
+      "birthdate": "1854-06-01",
+      "marital_status": "single",
+      "address1": "221 Baker Street",
+      "city": "London",
+      "province": "Westminister",
+      "postal_code": "NW1 6XE",
+      "country": "UK",
+      "emergency_name": "Watson",
+      "emergency_address": "same as employee",
+      "emergency_phone": "+447411896842",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-1111",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Branch Supervisor",
+          "compensation_level": "Regular",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Supervisor",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 3 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    },
+    {
+      "firstname": "Elizabeth",
+      "lastname": "Windsor",
+      "middlename": "Alexandria Mary",
+      "salutation": "Mrs",
+      "worksite": "2nd Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_quenny'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'queeny@' + account_name + '.com'; }"
+      },
+      "gender": "female",
+      "birthdate": "1926-04-22",
+      "marital_status": "married",
+      "address1": "Buckingham Palace",
+      "city": "London",
+      "province": "Westminister",
+      "postal_code": "SW1A 1AA",
+      "country": "UK",
+      "emergency_name": "Duke of Edinburgh",
+      "emergency_address": "same as employee",
+      "emergency_phone": "+447411555842",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-7811",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Branch Supervisor",
+          "compensation_level": "Regular",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Supervisor",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 3 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": [
+          {
+            "date": "17th of this month, 2 months ago",
+            "clocked_state": {
+              "in" : "now",
+              "out": "60 minutes after"
+            },
+            "resolution_steps":[]
+          }
+        ]
+      }
+    },
+    {
+      "firstname": "Bruce",
+      "lastname": "Wayne",
+      "salutation": "Mr",
+      "worksite": "Main Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_bruce'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'bruce@' + account_name + '.com'; }"
+      },
+      "gender": "male",
+      "birthdate": "1939-05-27",
+      "marital_status": "single",
+      "address1": "Wayne Manor",
+      "city": "Gotham City",
+      "province": "Westminister",
+      "postal_code": "SW1A 1AA",
+      "country": "UK",
+      "emergency_name": "Duke of Edinburgh",
+      "emergency_address": "same as employee",
+      "emergency_phone": "+447411555842",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-7811",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Store Assistant",
+          "compensation_level" : "Regular Compensation",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Rank and File",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 3 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    },
+    {
+      "firstname": "Donald",
+      "lastname": "Duck",
+      "salutation": "Mr",
+      "worksite": "Main Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_duck'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'duck@' + account_name + '.com'; }"
+      },
+      "gender": "male",
+      "birthdate": "1934-09-06",
+      "marital_status": "married",
+      "address1": "1313 Webfoot Walk",
+      "city": "Duckberg",
+      "province": "Calisota",
+      "postal_code": "D2C B6G",
+      "country": "USA",
+      "emergency_name": "Daffy",
+      "emergency_address": "same as employee",
+      "emergency_phone": "+16045551111",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-7811",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Store Assistant",
+          "compensation_level" : "Regular Compensation",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Rank and File",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 3 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    },
+    {
+      "firstname": "Ned",
+      "lastname": "Flanders",
+      "salutation": "Mr",
+      "worksite": "Main Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_flanders'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'flanders@' + account_name + '.com'; }"
+      },
+      "gender": "male",
+      "birthdate": "1954-06-17",
+      "marital_status": "married",
+      "address1": "740 Evergreen Terrace",
+      "city": "Springfield",
+      "province": "Illinois",
+      "country": "USA",
+      "emergency_name": "Miss Krauphel",
+      "emergency_address": "same as employee",
+      "emergency_phone": "+447411555842",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-7811",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Store Assistant",
+          "compensation_level" : "Regular Compensation",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Rank and File",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 3 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    },
+    {
+      "firstname": "Victor",
+      "lastname": "Meldrew",
+      "salutation": "Mr",
+      "worksite": "Main Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_victor'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'idontbelieveit@' + account_name + '.com'; }"
+      },
+      "gender": "male",
+      "birthdate": "1951-04-11",
+      "marital_status": "married",
+      "address1": "19 Riverbank",
+      "city": "Dorset",
+      "postal_code": "BA22 2DT",
+      "country": "UK",
+      "emergency_name": "Margaret Meldrew",
+      "emergency_address": "same as employee",
+      "emergency_phone": "+44208111555",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-7811",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Store Assistant",
+          "compensation_level" : "Regular Compensation",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Rank and File",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 3 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    },
+    {
+      "firstname": "Paddington",
+      "lastname": "Bear",
+      "salutation": "Mr",
+      "worksite": "2nd Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_paddington'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'paddington@' + account_name + '.com'; }"
+      },
+      "gender": "male",
+      "birthdate": "1952-01-25",
+      "marital_status": "single",
+      "address1": "32 Windsor Gardens",
+      "city": "London",
+      "postal_code": "NW1 4XT",
+      "country": "UK",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-7811",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Store Assistant",
+          "compensation_level" : "Regular Compensation",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Rank and File",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 3 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    },
+    {
+      "firstname": "Carmela",
+      "lastname": "Soprano",
+      "salutation": "Mrs",
+      "worksite": "2nd Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_soprano'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'carmela@' + account_name + '.com'; }"
+      },
+      "gender": "female",
+      "birthdate": "1963-07-05",
+      "marital_status": "married",
+      "address1": "633 Stag Trail Road",
+      "city": "North Caldwell",
+      "postal_code": "7006",
+      "country": "USA",
+      "emergency_name": "Anthony Soprano",
+      "emergency_address": "same as employee",
+      "emergency_phone": "+441608111555",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-7811",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Store Assistant",
+          "compensation_level" : "Regular Compensation",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Rank and File",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 1 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    },
+    {
+      "firstname": "Buffy",
+      "lastname": "Summers",
+      "salutation": "Ms",
+      "worksite": "2nd Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_buffy'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'slayer@' + account_name + '.com'; }"
+      },
+      "gender": "female",
+      "birthdate": "1981-09-23",
+      "marital_status": "married",
+      "address1": "123 Revello Drive",
+      "city": "Sunnydale",
+      "postal_code": "40865",
+      "country": "USA",
+      "emergency_name": "Angel",
+      "emergency_address": "same as employee",
+      "emergency_phone": "+441605551555",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-7811",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Store Assistant",
+          "compensation_level" : "Regular Compensation",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Rank and File",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 1 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    },
+    {
+      "firstname": "Spongebob",
+      "lastname": "Squarepants",
+      "salutation": "Mr",
+      "worksite": "2nd Branch",
+      "role_name": "Regular Employee",
+      "username": {
+        "type": "function",
+        "body": "function() { return account_name + '_spongebob'; }"
+      },
+      "email": {
+        "type": "function",
+        "body": "function() { return 'squarepants@' + account_name + '.com'; }"
+      },
+      "gender": "female",
+      "birthdate": "1986-07-14",
+      "marital_status": "single",
+      "address1": "124 Conch Street",
+      "city": "Bikini Bottom",
+      "postal_code": "321 123",
+      "country": "Pacific Ocean",
+      "emergency_name": "Patrick",
+      "emergency_address": "Rock",
+      "emergency_phone": "+4416081115541",
+      "avatar": "",
+      "classification": "Rank & File",
+      "employee_number": "123",
+      "employment_date": "the 1st of this month, 1 year ago",
+      "pay_mode": "monthly",
+      "status": "active",
+      "phones": [
+        {
+          "phone_number": "604-555-7811",
+          "label": "mobile"
+        }
+      ],
+      "positions": [
+        {
+          "position_name": "Store Assistant",
+          "compensation_level" : "Regular Compensation",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "employee_types": [
+        {
+          "name": "Rank and File",
+          "effective_date": "the 1st of this month, 3 months ago"
+        }
+      ],
+      "schedules": [
+        {
+          "effective_date": "1st of this month, 2 months ago",
+          "schedule_template": "Mixed 1 M-F"
+        }
+      ],
+      "schedule_exceptions": [],
+      "attendance": {
+        "from": "1st of this month, 2 months ago",
+        "number_of_days": 45,
+        "clocked_state": "perfect",
+        "resolution_steps": [
+          {
+            "perfect": {
+              "resolution": "submit"
+            }
+          }
+        ],
+        "custom_days": []
+      }
+    }
+  ]
+}
+
